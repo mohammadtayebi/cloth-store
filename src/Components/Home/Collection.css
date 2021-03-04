@@ -1,0 +1,23 @@
+.collection-img {
+    position: relative;
+}
+
+.collection-image-container {
+    position: absolute;
+    bottom: 27px;
+    color: black;
+    z-index: 10000;
+    left: 2rem;
+}
+
+.collection-image-container h1 {
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+}
+
+.collection a {
+    opacity: 0.8;
+}
+
+.collection a:hover {
+    opacity: 1;
+}

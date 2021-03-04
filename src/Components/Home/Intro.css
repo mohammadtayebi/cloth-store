@@ -1,0 +1,21 @@
+.image-intro {
+    background: url(../../utils/hero_1.jpg) no-repeat;
+    height: calc(100vh - 174px);
+    width: 100%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.info-intro {
+    /* position: absolute;
+    top: 12rem;
+    right: 10%; */
+}
+
+@media only screen and (max-width:767px) {
+    .image-intro {
+        background: #00ffd1;
+        height: 20rem;
+    }
+}
